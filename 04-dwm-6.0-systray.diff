@@ -95,7 +95,7 @@
  static int xerrordummy(Display *dpy, XErrorEvent *ee);
  static int xerrorstart(Display *dpy, XErrorEvent *ee);
 @@ -265,6 +298,8 @@
- static void bstack(Monitor *m);
+ static void zoom(const Arg *arg);
  
  /* variables */
 +static Systray *systray = NULL;

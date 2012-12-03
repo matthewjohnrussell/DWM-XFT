@@ -12,18 +12,19 @@ conflicts=('dwm-pango')
 _source=(http://dl.suckless.org/dwm/dwm-$pkgver.tar.gz
         config.h)
 _patches=(01-dwm-6.0-xft.diff
-          02-dwm-6.0-pertag2.diff
-          03-dwm-6.0-uselessgaps.diff
+#          02-dwm-6.0-pertag2.diff
+#          03-dwm-6.0-uselessgaps.diff
 		  04-dwm-6.0-systray.diff
-		  05-dwm-6.0-statuscolors.diff
-		  06-dwm-6.0-occupiedcol.diff
-		  07-dwm-6.0-monocle_fixes.diff
-		  08-dwm-6.0-statusallmons.diff
-		  09-dwm-6.0-attachaside.diff
-		  10-dwm-6.0-no_title.diff
-		  11-dwm-6.0-remove_unfunc.diff
+#		  05-dwm-6.0-statuscolors.diff
+#		  06-dwm-6.0-occupiedcol.diff
+#		  07-dwm-6.0-monocle_fixes.diff
+#		  08-dwm-6.0-statusallmons.diff
+#		  09-dwm-6.0-attachaside.diff
+#		  10-dwm-6.0-no_title.diff
+#		  11-dwm-6.0-remove_unfunc.diff
 		  12-dwm-6.0-XKeycodeToKeysym_fix.diff
 #		  18-dwm-6.0-transparentbar.diff
+		  19-dwm-6.0-single_window_no_border.diff
           00-dwm-6.0-buildflags.diff)
 source=(${_source[@]} ${_patches[@]})
 
